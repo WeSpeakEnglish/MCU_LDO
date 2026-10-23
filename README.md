@@ -242,12 +242,7 @@ Vset=12.00 ON Vbat=14.10 Vd=2.09 Vload=12.01 DAC=612 T=41.3 dt_max=1040 overruns
 
 ### 1. Calibration
 
-1. Disconnect the load. Apply a known voltage (e.g. 12.00 V from a bench supply)
-   to both divider inputs.
-2. Read `Vbat` and `Vd` on the Serial monitor.
-3. Set `CAL_VBAT = real / measured_Vbat` and `CAL_VDRAIN = real / measured_Vd`.
-
-A correction of several percent usually points to a wrong or badly soldered resistor.
+Set `CAL_VBAT = real / measured_Vbat` and `CAL_VDRAIN = real / measured_Vd`.
 
 ### 2. Loop timing
 
