@@ -62,7 +62,7 @@ Default after power-up or reset: **12.00 V, ON, P1**.
 | A1 / D1 | PA04 (ADC) | Divider: 100 kΩ from Q1 drain, 4.7 kΩ to GND, 10 nF to GND |
 | A2 / D2 | PA10 (ADC) | Divider: 100 kΩ from +Vbat, 4.7 kΩ to GND, 10 nF to GND |
 | A3 / D3 | PA11 (ADC) | 47 kΩ from 3V3; NTC 10 kΩ to GND (optional) |
-| 3V3 | — | 78L33 output |
+| 5V | — | 78L05 output |
 | GND | — | BAT– at the star point near Q1's source |
 
 **Power stage**
