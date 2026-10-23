@@ -41,7 +41,7 @@ Default after power-up or reset: **12.00 V, ON, P1**.
 | Ref | Part | Value / type | Notes |
 |---|---|---|---|
 | U1 | Seeed XIAO SAMD21 | — | Controller, DAC on A0 |
-| U2 | 78L33 | 3.3 V LDO, max 30 V in | Powers the XIAO via 3V3 pin |
+| U2 | 78L05 | 5 V LDO, max 30 V in | Powers the XIAO via 5V pin |
 | Q1 | Infineon IRL40SC228 | N-MOSFET, 40 V, D2PAK-7 | Needs a heatsink |
 | R_G | Resistor | 4.7 kΩ | DAC → gate, isolates DAC from gate capacitance |
 | R_PD | Resistor | 270 kΩ | Gate → GND, keeps Q1 off when DAC is not driving |
